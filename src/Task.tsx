@@ -5,8 +5,8 @@ export function Task({desc}:{desc:string}){
         <>
             <div  className={'p-2 Task'}>
                 <div className="form-check">
-                    <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                    <label className="form-check-label">
+                        <input className="form-check-input" type="checkbox" value=""/>
                         {desc}
                     </label>
                 </div>
