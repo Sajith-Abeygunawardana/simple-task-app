@@ -23,7 +23,6 @@ function App() {
                   }} className={"form-control"} type="text" placeholder={"Enter Task"}/>
                   <button className={"btn btn-primary"} onClick={() => {
                       db.collection('task').add({task:value});
-                      // setTaskList([...taskList, value]);
                   }}>ADD
                   </button>
               </div>
